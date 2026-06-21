@@ -1,0 +1,103 @@
+[2026-06-21 23:55:19] [ATM4] ATM avviato. In attesa di connessioni sulla porta 5004...
+[2026-06-21 23:55:22] [ATM3] ATM avviato. In attesa di connessioni sulla porta 5003...
+[2026-06-21 23:55:22] [ATM4] Connessione accettata dal nodo precedente.
+.
+[2026-06-21 23:55:25] [ATM2] ATM avviato. In attesa di connessioni sulla porta 5002...
+[2026-06-21 23:55:25] [ATM3] Connessione accettata dal nodo precedente.
+.
+[2026-06-21 23:55:28] [ATM1] ATM avviato. In attesa di connessioni sulla porta 5001...
+[2026-06-21 23:55:28] [ATM1] Connesso al nodo successivo sulla porta 5002.
+[2026-06-21 23:55:28] [ATM2] Connessione accettata dal nodo precedente.
+[2026-06-21 23:55:28] [ATM1] Attendo 5 secondi affinché tutti i nodi siano connessi...
+[2026-06-21 23:55:28] [ATM1] Connessione accettata dal nodo precedente.
+[2026-06-21 23:55:28] [ATM4] Connesso al nodo successivo sulla porta 5001.
+[2026-06-21 23:55:33] [ATM1] --- INIZIO --- Ricevuto token iniziale con saldo: 1000
+[2026-06-21 23:55:33] [ATM1] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:33] [ATM2] RICEZIONE DEL TOKEN (Saldo corrente: 1000)
+[2026-06-21 23:55:33] [ATM2] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:55:33] [ATM2] Richiesta di prelievo: 200
+[2026-06-21 23:55:33] [ATM2] Transazione completata con successo.
+[2026-06-21 23:55:33] [ATM2] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 1000 *** PRELIEVO 200 *** SALDO AGGIORNATO: 800
+[2026-06-21 23:55:35] [ATM2] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:35] [ATM3] RICEZIONE DEL TOKEN (Saldo corrente: 800)
+[2026-06-21 23:55:35] [ATM3] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:55:35] [ATM3] Richiesta di deposito: 100
+[2026-06-21 23:55:35] [ATM3] Transazione completata con successo.
+[2026-06-21 23:55:35] [ATM3] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 800 *** DEPOSITO 100 *** SALDO AGGIORNATO: 900
+[2026-06-21 23:55:37] [ATM3] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:37] [ATM4] RICEZIONE DEL TOKEN (Saldo corrente: 900)
+[2026-06-21 23:55:37] [ATM4] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:55:37] [ATM4] Richiesta di prelievo: 500
+[2026-06-21 23:55:37] [ATM4] Transazione completata con successo.
+[2026-06-21 23:55:37] [ATM4] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 900 *** PRELIEVO 500 *** SALDO AGGIORNATO: 400
+[2026-06-21 23:55:39] [ATM4] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:39] [ATM1] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:39] [ATM1] Nessuna transazione in sospeso.
+[2026-06-21 23:55:41] [ATM1] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:41] [ATM2] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:41] [ATM2] Nessuna transazione in sospeso.
+[2026-06-21 23:55:43] [ATM2] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:43] [ATM3] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:43] [ATM3] Nessuna transazione in sospeso.
+[2026-06-21 23:55:45] [ATM3] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:45] [ATM4] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:45] [ATM4] Nessuna transazione in sospeso.
+[2026-06-21 23:55:47] [ATM4] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:47] [ATM1] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:47] [ATM1] Nessuna transazione in sospeso.
+[2026-06-21 23:55:49] [ATM1] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:49] [ATM2] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:49] [ATM2] Nessuna transazione in sospeso.
+[2026-06-21 23:55:51] [ATM2] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:55:51] [ATM3] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:55:51] [ATM3] Nessuna transazione in sospeso.
+[2026-06-21 23:55:52] [ATM4] ATM in chiusura.
+[2026-06-21 23:55:52] [ATM1] Errore di connessione: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+[2026-06-21 23:55:52] [ATM3] ATM in chiusura.
+[2026-06-21 23:55:53] [ATM2] ATM in chiusura.
+[2026-06-21 23:55:54] [ATM1] ATM in chiusura.
+[2026-06-21 23:58:05] [ATM4] ATM avviato. In attesa di connessioni sulla porta 5004...
+[2026-06-21 23:58:07] [ATM3] ATM avviato. In attesa di connessioni sulla porta 5003...
+[2026-06-21 23:58:07] [ATM3] Connesso al nodo successivo sulla porta 5004.
+[2026-06-21 23:58:07] [ATM4] Connessione accettata dal nodo precedente.
+[2026-06-21 23:58:08] [ATM2] ATM avviato. In attesa di connessioni sulla porta 5002...
+[2026-06-21 23:58:08] [ATM3] Connessione accettata dal nodo precedente.
+[2026-06-21 23:58:08] [ATM2] Connesso al nodo successivo sulla porta 5003.
+[2026-06-21 23:58:09] [ATM1] ATM avviato. In attesa di connessioni sulla porta 5001...
+[2026-06-21 23:58:09] [ATM1] Connesso al nodo successivo sulla porta 5002.
+[2026-06-21 23:58:09] [ATM2] Connessione accettata dal nodo precedente.
+no connessi...
+[2026-06-21 23:58:10] [ATM4] Connesso al nodo successivo sulla porta 5001.
+[2026-06-21 23:58:10] [ATM1] Connessione accettata dal nodo precedente.
+[2026-06-21 23:58:14] [ATM1] --- INIZIO --- Ricevuto token iniziale con saldo: 1000
+[2026-06-21 23:58:14] [ATM1] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:16] [ATM2] RICEZIONE DEL TOKEN (Saldo corrente: 1000)
+[2026-06-21 23:58:16] [ATM2] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:58:16] [ATM2] Richiesta di prelievo: 200
+[2026-06-21 23:58:16] [ATM2] Transazione completata con successo.
+[2026-06-21 23:58:16] [ATM2] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 1000 *** PRELIEVO 200 *** SALDO AGGIORNATO: 800
+[2026-06-21 23:58:18] [ATM2] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:20] [ATM3] RICEZIONE DEL TOKEN (Saldo corrente: 800)
+[2026-06-21 23:58:20] [ATM3] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:58:20] [ATM3] Richiesta di deposito: 100
+[2026-06-21 23:58:20] [ATM3] Transazione completata con successo.
+[2026-06-21 23:58:20] [ATM3] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 800 *** DEPOSITO 100 *** SALDO AGGIORNATO: 900
+[2026-06-21 23:58:22] [ATM3] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:24] [ATM4] RICEZIONE DEL TOKEN (Saldo corrente: 900)
+[2026-06-21 23:58:24] [ATM4] INIZIO DELLA TRANSAZIONE
+[2026-06-21 23:58:24] [ATM4] Richiesta di prelievo: 500
+[2026-06-21 23:58:24] [ATM4] Transazione completata con successo.
+[2026-06-21 23:58:24] [ATM4] *** FINE DELLA TRANSAZIONE. SALDO INIZIALE 900 *** PRELIEVO 500 *** SALDO AGGIORNATO: 400
+[2026-06-21 23:58:26] [ATM4] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:28] [ATM1] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:58:28] [ATM1] Nessuna transazione in sospeso.
+[2026-06-21 23:58:30] [ATM1] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:32] [ATM2] RICEZIONE DEL TOKEN (Saldo corrente: 400)
+[2026-06-21 23:58:32] [ATM2] Nessuna transazione in sospeso.
+[2026-06-21 23:58:33] [ATM4] ATM in chiusura.
+[2026-06-21 23:58:33] [ATM1] Errore di connessione: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+[2026-06-21 23:58:34] [ATM3] ATM in chiusura.
+[2026-06-21 23:58:34] [ATM2] INOLTRO DEL TOKEN al nodo successivo...
+[2026-06-21 23:58:34] [ATM2] Errore di connessione: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+[2026-06-21 23:58:37] [ATM1] ATM in chiusura.
+[2026-06-21 23:58:39] [ATM2] ATM in chiusura.
