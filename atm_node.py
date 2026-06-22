@@ -155,7 +155,7 @@ class ATMNode:
             # aggiorno il saldo nel token
             token["balance"] = current_balance
 
-            # svuoto il buffer delle transazioni
+            # rimuovo la transazione in sospeso: ora è stata elaborata
             self.pending_transaction = None
             
             # stampo il log finale della transazione
@@ -168,7 +168,7 @@ class ATMNode:
         else:
             self.log("Nessuna transazione in sospeso.")
             
-        # Inoltra immediatamente il token (piccolo sleep per migliorare la visibilità dei print)
+        # Inoltro il token al nodo successivo (piccolo sleep solo per migliorare la visibilità dei print)
         time.sleep(1)
         self.forward_token(token)
 

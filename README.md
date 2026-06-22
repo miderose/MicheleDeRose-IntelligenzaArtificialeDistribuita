@@ -18,5 +18,8 @@ A quel punto, si vedranno i log di ogni nodo (si raccomanda di tenere aperte 4 f
 
 In caso di errore, il programma si fermerà e stamperà un messaggio di errore. Controllare il file atm.log per maggiori dettagli.  
 
-# Ulteriori dettagli nel file 
-[Dettagli implementativi e spiegazione del codice.pdf](https://github.com/miderose/MicheleDeRose-IntelligenzaArtificialeDistribuita/blob/main/Dettagli%20implementativi%20e%20spiegazione%20del%20codice.pdf)
+# Ulteriori dettagli
+Ulteriori dettagli sono disponibili nel file [Dettagli implementativi e spiegazione del codice.pdf](https://github.com/miderose/MicheleDeRose-IntelligenzaArtificialeDistribuita/blob/main/Dettagli%20implementativi%20e%20spiegazione%20del%20codice.pdf)
+
+# Video
+Link del video: [Token - 4 nodi ATM](https://github.com/miderose/MicheleDeRose-IntelligenzaArtificialeDistribuita/blob/main/Token%20-%204%20nodi%20ATM.mp4)
